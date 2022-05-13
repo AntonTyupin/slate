@@ -122,7 +122,7 @@ let kittens = api.kittens.get();
 ]
 ```
 
-This endpoint retrieves all kittens.
+This endpoint retrieves all kittens. Note, however, that this URL is a fake one and you cannot use it to make real requests.
 
 ### HTTP Request
 
