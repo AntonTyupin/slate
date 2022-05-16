@@ -65,25 +65,12 @@ Kittn uses API keys to allow access to the API. You can register a new Kittn API
 
 Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
+
 `Authorization: meowmeowmeow`
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
-
-
-<aside class="notice">
-    Notice.
-</aside>
-
-<aside class="warning">
-    Warning.
-</aside>
-
-<aside class="success">
-    Success.
-</aside>
-
 
 # Kittens
 
@@ -136,7 +123,11 @@ let kittens = api.kittens.get();
 ]
 ```
 
-This endpoint retrieves all kittens. Note, however, that this URL is a fake one and you cannot use it to make real requests.
+This endpoint retrieves all kittens. 
+
+<aside class="warning">
+Note, however, that this URL is a fake one and you cannot use it to make real requests.
+</aside>
 
 ### HTTP Request
 
